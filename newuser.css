@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  display: flex;
+  justify-content:center; /* le centre horizontalement */
+  flex-direction: nowrap;
+  align-items: center; /* le centre verticalement */
+  background: linear-gradient(-455deg, #f11c1c, #df60d8);
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+form {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, .3); /* arriere plan encadré */
+  padding: 40px 60px;
+  border-radius: 50px; /* bordure arrondie */
+  min-width: 300px;
+  box-shadow: 20px, 20px, 40, -6px rgba(0, 0, 0, -2);
+}
+form h1{
+  color: #334274;
+  text-align:center;
+}
+
+form p.choose-email{
+  text-align:center;
+}
+
+form p.create-your-password{
+  text-align:center;
+}
+
+form p.Confirm-your-new-password{
+  text-align:center;
+}
+
+form .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+  
+form .wrapper input[type='email'], form .wrapper input[type='password'], form .wrapper input[type='name'], form .wrapper input[type='birthday'], form .wrapper input[type='city'], form .wrapper input[type='country']  {
+  padding: 15px;
+  border:none;
+  border-radius: 50px;
+  background-color:#d4d1d1; /*champs email & password */
+  outline:none;
+  margin-bottom: 15px;
+  
+}
+
+
+form p.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #b38a8a;
+}
+form p.inscription span{
+  color: #eb7371;
+}
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #b67f7f; /*bouton connect */
+  outline:none;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: rgb(133, 42, 42); /* bouton log in */
+}
+
+a:hover {
+  text-shadow: 2px 2px 4px #ff020240; /*ombre forget password & click here */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 10px;
+place-items: center;    
+  }

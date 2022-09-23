@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* menu */
+
+.header{
+    background-color: #287265;
+    height: 80px;
+    margin:10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block ;
+    padding: 25px;
+    }
+
+ul li a{
+        color: aliceblue;
+        letter-spacing: 0.1rem;
+    }
+
+ul li a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+
+.menu li{
+        float: left;
+        padding: 35px;
+    }
+
+.menu li a{
+        text-decoration: none;
+    }
+
+form{
+        padding: 35px;
+        text-align: right;
+    }
+
+input[type="Search"]{
+    font-size:17px;
+    }
+
+/* fin menu  */
+
+/* Title */
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+/* end title */
+
+/* flexbox */
+
+.flex-container{
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;    
+    }
+
+.flex-items{
+    /* background-color: black; */
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;  
+    /* flex-direction: column; */
+}
+
+
+
+.flex-item-1{
+    order: 0;
+    flex: 0 1 Auto;
+    align-self: auto;
+    display: flex;
+    
+}
+
+.flex-item-2 {
+    order: 0;
+    flex: 0 1 Auto;
+    align-self: auto;
+    display: flex;
+
+    }
+
+.flex-item-3 {
+    order: 0;
+    flex: 0 1 Auto;
+    align-self: auto;
+    display: flex;
+
+    }
+
+.flex-item-4{
+    order: 0;
+    flex: 0 1 Auto;
+    align-self: auto;
+    display: flex;
+    }
+
+
+/* end flexbox */
+
+/* Grid */
+
+.parent{
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.grid-item{
+    display: grid;
+    grid-gap:10px;
+    border: 1px solid;
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+}
+/* fin grid */
